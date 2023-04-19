@@ -1,12 +1,16 @@
 /* Basic Style */
-body {
+li {
+  list-style:none;
+}
+
+input, button {
+  outline:none;
+}
+
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
-}
-
-li {
-  list-style:none;
 }
 
 .header {
@@ -53,9 +57,6 @@ li {
   padding: 0px;
 }
 
-.tasks-group__task, .btn {
-  outline:none;
-}
 
 .btn {
   background: none;
