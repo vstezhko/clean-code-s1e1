@@ -1,10 +1,10 @@
 /* Basic Style */
 li {
-  list-style:none;
+  list-style: none;
 }
 
 input, button {
-  outline:none;
+  outline: none;
 }
 
 .page {
@@ -45,7 +45,7 @@ input, button {
 .tasks-group__label, .tasks-group__task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-item__input {
@@ -53,14 +53,13 @@ input, button {
 }
 
 .tasks-group {
-  margin:0;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
-
 
 .btn {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -72,13 +71,13 @@ input, button {
   color: #3a3A3a;
 }
 
-.btn_delete img{
+.btn__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn_delete img:hover {
+.btn__img:hover {
   transform: rotateZ(0);
 }
 
@@ -145,8 +144,8 @@ input, button {
   width: 226px;
 }
 
-.tasks-group__item > .tasks-group__task {
-  width: 226px
+.tasks-group__item .tasks-group__task {
+  width: 226px;
 }
 
 /* Completed */
@@ -157,14 +156,14 @@ input, button {
 
 /* Edit Task */
 .tasks-group__item .tasks-group__task {
-  display:none
+  display: none;
 }
 
 .tasks-group__item_edit .tasks-group__task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 .tasks-group__item_edit .tasks-group__label {
-  display:none;
+  display: none;
 }
