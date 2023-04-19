@@ -3,7 +3,8 @@ li {
   list-style: none;
 }
 
-input, button {
+input,
+button {
   outline: none;
 }
 
@@ -42,7 +43,8 @@ input, button {
   margin: 0 auto 0;
 }
 
-.tasks-group__label, .tasks-group__task {
+.tasks-group__label,
+.tasks-group__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -82,7 +84,8 @@ input, button {
 }
 
 /* Heading */
-.main-title, .add-item__label {
+.main-title,
+.add-item__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
